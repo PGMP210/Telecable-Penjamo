@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Si ya tienes un estilo base de aplicación (AppTheme), déjalo aquí. -->
+
+    <!-- ESTILO PARA LOS CAMPOS DE TEXTO (EditTextStyle) -->
+    <!-- Este estilo hereda de Widget.AppCompat.EditText, que es el estilo estándar. -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <!-- El ancho será match_parent para ocupar todo el espacio disponible -->
+        <item name="android:layout_width">match_parent</item>
+
+        <!-- Altura envuelve el contenido -->
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Fondo: usa el Drawable redondeado que creamos anteriormente -->
+        <item name="android:background">@drawable/edittext_rounded</item>
+
+        <!-- Padding para espacio interno -->
+        <item name="android:padding">12dp</item>
+
+        <!-- Margen inferior para separarlo del siguiente campo -->
+        <item name="android:layout_marginBottom">16dp</item>
+
+        <!-- Tipo de entrada predeterminada (texto con mayúsculas iniciales, aunque se puede sobrescribir en el XML) -->
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+</resources>

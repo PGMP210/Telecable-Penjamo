@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color de fondo blanco para los campos de texto -->
+    <solid android:color="@android:color/white"/>
+
+    <!-- Borde gris claro alrededor del campo -->
+    <stroke android:width="1dp" android:color="#CCCCCC"/>
+
+    <!-- Radio para las esquinas redondeadas -->
+    <corners android:radius="8dp"/>
+</shape>

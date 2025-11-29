@@ -19,5 +19,9 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Telecable Penjamo"
+=======
+rootProject.name = "Telecable"
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
 include(":app")

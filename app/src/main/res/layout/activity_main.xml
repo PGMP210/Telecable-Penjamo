@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <!-- activity_main.xml - Pantalla Principal con Logo y Botones -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -63,3 +64,69 @@
     </LinearLayout>
 
 </RelativeLayout>
+=======
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E3A8A"
+    tools:context=".MainActivity">
+
+    <!-- Logo de la Empresa (Simulado con un TextView grande) -->
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telecable Pénjamo"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ll_buttons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:padding="20dp"
+        android:background="@drawable/roudded_backgroud"
+        />
+
+    <!-- Área de Botones Inferior -->
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Botón de Inicio (Login) -->
+        <Button
+            android:id="@+id/btn_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="INICIO"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#CCCCCC"
+            android:layout_marginEnd="16dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+    <!-- Necesitas un drawable para el fondo redondeado del logo si quieres que se vea mejor -->
+    <!-- En tu proyecto de Android Studio, crea un archivo 'res/drawable/rounded_background.xml' con este contenido:
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#33ffffff"/>
+        <corners android:radius="12dp"/>
+    </shape>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8

@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.TelecablePenjamo" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.Telecable" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

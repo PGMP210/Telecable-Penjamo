@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:padding="32dp"
+    tools:context=".SplashScreenActivity">
+
+    <!-- Mensaje de Bienvenida Personalizado -->
+    <TextView
+        android:id="@+id/tv_splash_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido/a al Sistema!"
+        android:textColor="@color/primary_blue"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintBottom_toTopOf="@id/tv_splash_role_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Pista de Rol (Cliente/Técnico) -->
+    <TextView
+        android:id="@+id/tv_splash_role_hint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tu acceso ha sido confirmado como Cliente Estándar."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/btn_continue_to_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_splash_message" />
+
+    <!-- Botón para continuar al menú -->
+    <Button
+        android:id="@+id/btn_continue_to_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR AL MENÚ PRINCIPAL"
+        android:backgroundTint="@color/accent_green"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_splash_role_hint"
+        app:layout_constraintVertical_bias="0.8"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

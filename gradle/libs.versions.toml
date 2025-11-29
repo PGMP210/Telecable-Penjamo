@@ -7,9 +7,12 @@ appcompat = "1.7.1"
 material = "1.13.0"
 activity = "1.12.0"
 constraintlayout = "2.2.1"
+<<<<<<< HEAD
 fragment = "1.8.9"
 recyclerview = "1.4.0"
 gridlayout = "1.1.0"
+=======
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -19,9 +22,12 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+<<<<<<< HEAD
 fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
+=======
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

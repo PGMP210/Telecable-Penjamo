@@ -10,17 +10,45 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.TelecablePenjamo">
+=======
+        android:theme="@style/Theme.Telecable">
+        <activity
+            android:name=".ClienteMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TecnicoMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoReporteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReporteActivity"
+            android:exported="false" />
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
         <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".VienvenidaActivity"
             android:exported="false" />
         <activity
             android:name=".TecnicoActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 2dd9e4c1aa706a7ccf078f5184d8d4275058dec8
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
