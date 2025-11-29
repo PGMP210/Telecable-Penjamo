@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/edittext_selector.xml -->
+<!-- Este selector cambia el borde cuando el EditText está enfocado -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado cuando está enfocado (cuando el usuario toca el campo) -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <stroke
+                android:width="3dp"
+                android:color="#4CAF50" />
+            <corners android:radius="8dp" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp" />
+        </shape>
+    </item>
+
+    <!-- Estado cuando tiene error -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#F5F5F5" />
+            <stroke
+                android:width="2dp"
+                android:color="#CCCCCC" />
+            <corners android:radius="8dp" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp" />
+        </shape>
+    </item>
+
+    <!-- Estado normal (sin foco) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <stroke
+                android:width="2dp"
+                android:color="#2196F3" />
+            <corners android:radius="8dp" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp" />
+        </shape>
+    </item>
+
+</selector>

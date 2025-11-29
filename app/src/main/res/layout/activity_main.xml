@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml - Pantalla Principal con Logo y Botones -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <!-- Logo de la Empresa -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Logo Empresa" />
+
+    <!-- Nombre de la Empresa -->
+    <TextView
+        android:id="@+id/tvNombreEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="MI EMPRESA"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3" />
+
+    <!-- Contenedor de Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombreEmpresa"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Botón Iniciar -->
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="INICIAR"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón Registro -->
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="REGISTRO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</RelativeLayout>

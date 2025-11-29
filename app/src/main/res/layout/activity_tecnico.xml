@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_tecnico.xml - Pantalla para Ingresar Código de Técnico -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCESO TÉCNICO"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Icono -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="Icono Técnico" />
+
+    <!-- Campo Código -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="Código de Técnico">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCodigoTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:drawablePadding="12dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Botón Verificar -->
+    <Button
+        android:id="@+id/btnVerificarCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="VERIFICAR CÓDIGO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
