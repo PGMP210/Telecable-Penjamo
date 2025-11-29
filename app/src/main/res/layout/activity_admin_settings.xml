@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/light_gray_bg"
+    tools:context=".AdminSettingsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel de Administración"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_blue"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_manage_clients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR NUEVO USUARIO (CLIENTE/TÉCNICO)"
+        android:backgroundTint="@color/accent_green"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        app:cornerRadius="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D0D0D0"
+        android:layout_marginVertical="24dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CERRAR SESIÓN"
+        android:backgroundTint="#EF4444"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

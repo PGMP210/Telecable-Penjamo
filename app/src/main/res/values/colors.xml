@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Color Principal de Telecable Pénjamo (Azul Oscuro) -->
+    <color name="primary_blue">#1E3A8A</color>
+    <!-- Color de Acento (Gris claro/Fondo) -->
+    <color name="light_gray_bg">#F0F0F0</color>
+    <!-- Color para los detalles de las tarjetas -->
+    <color name="accent_green">#38A169</color>
+</resources>
